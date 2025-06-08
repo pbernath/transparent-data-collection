@@ -1,0 +1,34 @@
+Privacy Policy
+
+This privacy policy is applicable to the Fictional Company app (hereinafter referred to as "Application") for mobile devices, which was developed by Fictional Company (hereinafter referred to as "Service Provider") as a Free service. This service is provided "AS IS".
+
+
+What information does the Application obtain and how is it used?
+User Provided Information
+The Application acquires the information you supply when you download and register the Application. Registration with the Service Provider is not mandatory. However, bear in mind that you might not be able to utilize some of the features offered by the Application unless you register with them.
+
+The Service Provider may also use the information you provided them to contact you from time to time to provide you with important information, required notices and marketing promotions.
+
+Contracts
+This automatically, but manually user approved, collected information has it's intended use and and acquirement explained in detail in the contract before it's accepted.
+
+Do third parties see and/or have access to information obtained by the Application?
+Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement and each contract. All interested parties are in the same jurisdiction as the Service Provider.
+
+What are my opt-out rights?
+You can halt all collection of information by the Application easily by uninstalling the Application or aborting any contract you no longer agree to fulfill. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network. The "My Contracts" section of the Application contains the resources needed to stop any contract.
+
+Data Retention Policy, Managing Your Information
+The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The Service Provider will retain Automatically Collected information for up to 6 months and thereafter may store it in aggregate.
+
+If you'd like to request all the data stored about you from the Service Provider, please use the option in the Application under "Preferences" and we will respond in a reasonable time.
+
+If you'd like the Service Provider to delete User Provided Data that you have provided via the Application, please use the option in the Application under "Preferences" and we will respond in a reasonable time. Please note that some or all of the User Provided Data may be required for the Application to function properly.
+
+Changes
+This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+
+This privacy policy is effective as of 2025-06-04
+
+Contact us
+If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at privacy@fictionalcompany.com.

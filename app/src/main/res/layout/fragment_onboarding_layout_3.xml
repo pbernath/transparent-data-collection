@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text='When accepting a contract, you will be prompted to grant any necessary permissions for the contract. Once accepted, it will have the status \"Awaiting activation\" and keep this status until the contract is due to start according to its start date. When a contract has started the status will change to \"Active\", and when followed through to the end date the status will show \"Finished\".\n\nYou are always in control and can choose to not partake in the contract at any time. If you choose this before the contract has started it will still be available to accept again until its start date. If you however decide to interrupt the contract while it is \"Active\", it becomes terminated and can not be resumed.'
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

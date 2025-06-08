@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text='The primary way of using this app is by interacting with \"Contracts\". Below is an image of a contract. It has information about who commissioned it, for what duration it would be active and its primary purpose. You can also read about it in the description as well as see what the potential reward is.'
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/img_onboarding_example_contract"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_onboarding_example_contract"
+        android:layout_width="301dp"
+        android:layout_height="371dp"
+        android:contentDescription="Contract example image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/contract_example" />
+</androidx.constraintlayout.widget.ConstraintLayout>

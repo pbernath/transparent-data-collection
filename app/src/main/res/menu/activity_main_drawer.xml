@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:checkableBehavior="single" android:title="Menu">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/outline_blur_circular_24"
+                android:title="@string/menu_home" />
+            <item
+                android:id="@+id/nav_my_profile"
+                android:icon="@drawable/outline_admin_panel_settings_24"
+                android:title="@string/my_profile" />
+
+        </menu>
+    </item>
+    <item android:checkableBehavior="single" android:title="Contracts">
+        <menu>
+            <item
+                android:id="@+id/nav_browse_contracts"
+                android:icon="@drawable/outline_document_search_24"
+                android:title="@string/menu_browse_contracts" />
+            <item
+                android:id="@+id/nav_my_contracts"
+                android:icon="@drawable/outline_document_scanner_24"
+                android:title="@string/menu_my_contracts"/>
+            <item
+                android:id="@+id/nav_rewards"
+                android:icon="@drawable/baseline_balance_24"
+                android:title="@string/menu_offers" />
+
+        </menu>
+
+
+    </item>
+</menu>

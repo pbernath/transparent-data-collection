@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.thesisproject.thesis_vt25.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_onboarding"
+            app:destination="@id/nav_onboarding" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_my_profile"
+        android:name="com.thesisproject.thesis_vt25.ui.my_profile.MyProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" >
+        <action
+            android:id="@+id/action_nav_my_profile_to_nav_onboarding"
+            app:destination="@id/nav_onboarding" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.thesisproject.thesis_vt25.ui.rewards.RewardsFragment"
+        android:label="@string/menu_offers"
+        tools:layout="@layout/fragment_rewards" >
+        <action
+            android:id="@+id/action_nav_rewards_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_my_contracts_active_contracts"
+        android:name="com.thesisproject.thesis_vt25.ui.my_contracts.AcceptedContractsPageFragment"
+        android:label="@string/accepted_contracts_label"
+        tools:layout="@layout/fragment_accepted_contracts_page" />
+
+    <fragment
+        android:id="@+id/nav_my_contracts_past_contracts"
+        android:name="com.thesisproject.thesis_vt25.ui.my_contracts.PastContractsPageFragment"
+        android:label="@string/past_contracts_label"
+        tools:layout="@layout/fragment_past_contracts_page" />
+
+    <fragment
+        android:id="@+id/nav_browse_contracts"
+        android:name="com.thesisproject.thesis_vt25.ui.browse_contracts.BrowseContractsFragment"
+        android:label="@string/menu_browse_contracts"
+        tools:layout="@layout/fragment_browse_contracts" >
+        <action
+            android:id="@+id/action_nav_browse_contracts_to_nav_contract_details"
+            app:destination="@id/nav_contract_details" />
+        <action
+            android:id="@+id/action_nav_browse_contracts_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_my_contracts"
+        android:name="com.thesisproject.thesis_vt25.ui.my_contracts.MyContractsFragment"
+        android:label="@string/menu_my_contracts"
+        tools:layout="@layout/fragment_my_contracts" >
+        <action
+            android:id="@+id/action_nav_my_contracts_to_nav_contract_details"
+            app:destination="@id/nav_contract_details" />
+        <action
+            android:id="@+id/action_nav_my_contracts_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_contract_details"
+        android:name="com.thesisproject.thesis_vt25.ui.contract_details.ContractDetailsFragment"
+        android:label="@string/contract_details_label"
+        tools:layout="@layout/fragment_contract_details" >
+        <argument android:name="contractId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_onboarding"
+        android:name="com.thesisproject.thesis_vt25.ui.contract_onboarding.OnboardingFragment"
+        android:label="Contracts Tutorial"
+        tools:layout="@layout/fragment_onboarding" />
+</navigation>

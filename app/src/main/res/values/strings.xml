@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Fictional Company</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_browse_contracts">Browse Contracts</string>
+    <string name="menu_my_contracts">My Contracts</string>
+    <string name="menu_offers">Offers</string>
+    <string name="preferences">Preferences</string>
+    <string name="guide">Guide</string>
+    <string name="contract_title">Contract title</string>
+    <string name="contract_overview_text">This is a contract overview, used for the recycler view showed in the recycler view.</string>
+    <string name="lorem_ipsum_text">Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</string>
+    <string name="save_contract_text">Save contract</string>
+    <string name="credit_image_description">Image of the credit or whatever compensation there is.</string>
+    <string name="saved_contracts_label">Saved contracts</string>
+    <string name="past_contracts_label">Past contracts</string>
+    <string name="credits_placeholder">100</string>
+    <string name="accept_contract">Accept contract\n</string>
+    <string name="accepted_contracts_label">Accepted contracts</string>
+    <string name="action_logout">Logout</string>
+    <string name="login_signup_email">Email</string>
+    <string name="login_signup_password">Password</string>
+    <string name="signup_terms_of_service">I agree to the Terms and Conditions and Privacy Policy</string>
+    <string name="text_sign_up">Sign Up</string>
+    <string name="text_login">Login</string>
+    <string name="text_login_not_registered">Not registered? Click here to register.</string>
+    <string name="text_available_contracts">Available Contracts</string>
+    <string name="contract_details_label">Contract Details</string>
+    <string name="text_item_status">This is status</string>
+    <string name="text_permissions_required">Permissions required:</string>
+    <string name="text_posted_on_label">Posted on:</string>
+    <string name="text_start_date">Start date:</string>
+    <string name="text_end_date">End date:</string>
+    <string name="text_ignore_contract">Ignore Contract</string>
+    <string name="overview_label">Overview</string>
+    <string name="my_profile">My Profile</string>
+</resources>
