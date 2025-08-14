@@ -64,7 +64,7 @@ Future development could expand upon this prototype in several ways:
 
 ## Thesis Information
 
-This project was submitted in fulfillment of the requirements for the Degree Programme in Computer Engineering and can be read in full at TODO:ADDURL.
+This project was submitted in fulfillment of the requirements for the Degree Programme in Computer Engineering and can be read in full at [KTH Royal Institute of Technology](https://kth.diva-portal.org/smash/record.jsf?pid=diva2:1986383).
 
 *   **Title**: Making Data Collection Transparent: A Focus on Consent and Transparency
 *   **Swedish Title**: Förtydligande av datainsamling: Ett fokus på samtycke och transparens
